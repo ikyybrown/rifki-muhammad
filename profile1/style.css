@@ -2,6 +2,10 @@ body{
     margin: 0;
 }
 
+img{
+    border-radius: 100%;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -29,4 +33,29 @@ nav a:hover{
     align-items: center;
     background-color: rgb(151, 149, 149);
     padding: 2rem;
+    
 }
+
+         .btn-grad {background-image: linear-gradient(to right, #E6DADA 0%, #274046  51%, #E6DADA  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+          img{
+            border-radius: 100%;
+          }

@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+img{
+    border-radius: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+nav a{
+text-decoration: none;
+color: rgb(67, 67, 131);
+}
+header {
+    background-color: rgb(124, 120, 120);
+    color: rgb(55, 55, 136);
+    padding: 2rem;
+}
+nav a:hover{
+    color: cadetblue;
+}
