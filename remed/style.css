@@ -1,5 +1,6 @@
 body{
     margin: 0;
+
 }
 img{
     border-radius: 100%;
@@ -8,6 +9,7 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+
 nav ul{
     display: flex;
     list-style: none;
@@ -30,3 +32,51 @@ header {
 nav a:hover{
     color: cadetblue;
 }
+.hero{
+    position: relative;
+    height: 80rem;
+    display: flex;
+    align-items: center;
+    color: rgb(134, 0, 0);
+    text-align: center;
+}
+.hero content{
+     position: relative;
+     z-index: 2;
+}
+.hero h1{
+    font-size: 3em;
+    font-weight: bold;
+}
+.hero p{
+    margin: 15px 0;
+    font-size: 1.2em;
+}
+.btn-primary{
+    background: blue;
+    padding: 12px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.content{
+    padding: 40px;
+    text-align: center;
+}
+
+
+.hero{
+    margin-top: 0;
+    background: url('https://universitas.beelajar.com/wp-content/uploads/2021/07/1-2.png') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    color:blue;
+    text-align: center;
+    display: flex;
+    justify-content: center;    
+}
+
+.contentrifki{
+    padding: 40px;
+    text-align: left;
+}   
